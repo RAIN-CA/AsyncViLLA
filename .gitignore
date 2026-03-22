@@ -1,0 +1,21 @@
+# ROS2 / colcon
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Runtime data
+runtime_data/
+*.raw
+
+# Shared memory / temp
+.devcontainer/
+.vscode/
+
+# Isaac / misc
+*.log

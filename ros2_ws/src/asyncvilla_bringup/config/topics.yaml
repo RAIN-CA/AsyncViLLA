@@ -1,0 +1,22 @@
+asyncvilla:
+  ros__parameters:
+    robot_name: "robot_1"
+
+    topics:
+      camera_front: "/robot_1/camera/front/image_raw"
+      odom: "/robot_1/odom"
+      collector_record_event: "/asyncvilla/collector/record_event"
+
+    storage:
+      root_dir: "/home/dion/workplace/AsyncViLLA/runtime_data"
+      image_subdir: "images"
+      state_subdir: "states"
+
+    collector:
+      image_save_interval_sec: 0.5
+      sync_tolerance_sec: 0.2
+
+    sensor_sim:
+      image_width: 640
+      image_height: 480
+      publish_hz: 5.0
